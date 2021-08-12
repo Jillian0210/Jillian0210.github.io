@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+  <head><meta name="generator" content="Hexo 3.9.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta name="description" content="All about coding and software">
+  <meta name="keyword" content="Programming, Programming Languages, Algorithms, Tools">
+  
+    <link rel="shortcut icon" href="/css/images/favicon.ico">
+  
+  <title>
+      
+          Yukang&#39;s Page
+      
+  </title>
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/gitment.css">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/fonts.css">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/code.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+  <script src="/js/qrious.js"></script>
+<script src="/js/gitment.js"></script>
+
+  <div style="margin:0 auto;width:0px;height:0px;overflow:hidden;">
+      <img src="/css/images/logo.png" width="400px" height="400px">
+  </div>
+
+  
+  
+    <!-- MathJax support START -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- MathJax support END -->
+  
+
+
+
+</head>
+
+  <body>
+    <header class="header fixed-header">
+  <div class="header-container">
+    <a class="home-link" href="/">
+      <div class="logo"></div>
+      <span>Yukang's Page</span>
+    </a>
+    <ul class="right-list">
+      
+        <li class="list-item">
+          
+            <a href="/" class="item-link active">Home</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/tags/" class="item-link">Tags</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/archives/" class="item-link">Archives</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/project/" class="item-link">Projects</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/about/" class="item-link">About</a>
+          
+        </li>
+      
+    </ul>
+    <div class="menu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div class="menu-mask">
+      <ul class="menu-list">
+        
+          <li class="menu-item">
+            
+              <a href="/" class="menu-link mobile-active">Home</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/tags/" class="menu-link">Tags</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/archives/" class="menu-link">Archives</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/project/" class="menu-link">Projects</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/about/" class="menu-link">About</a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <main class="app-body">
+    
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/12/22/c-mem-leak.html">内存泄漏</a>
+      </h2>
+      <p class="article-date">December 22, 2010
+          
+              
+  <a href="/tags#Programming" >
+    <span class="tag-code">Programming</span>
+  </a>
+
+  <a href="/tags#C" >
+    <span class="tag-code">C</span>
+  </a>
+
+  <a href="/tags#内存泄漏" >
+    <span class="tag-code">内存泄漏</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                以前写的一些程序运行一段时间后占用的内存越来越多，估计是内存泄露了。服务端的程序要长时间的运行，内存泄露是个很严重的问题。于是再检查程序，很崩溃的是还有另外一个模块不是自己写的，看起来很麻烦。看了半小时后发现一些问题，但是还是不能保证是否完全解决了。同事让我用以前他们写的一些函数，对应的 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/12/22/c-mem-leak.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/12/01/luopanzi.html">老罗的扯淡极致</a>
+      </h2>
+      <p class="article-date">December 1, 2010
+          
+              
+  <a href="/tags#扯淡" >
+    <span class="tag-code">扯淡</span>
+  </a>
+
+  <a href="/tags#老罗" >
+    <span class="tag-code">老罗</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                昨晚上正准备睡觉时手贱点随便点击了个链接，然后就在这个《老罗全国巡回演讲完结篇：海淀剧场》里一直跟着欢乐到2点钟。大学时有一段经常听老罗语录，胖子嬉笑怒骂、语言犀利、愤世嫉俗、玩世不恭、理性的愤青，听来很过瘾。那时很流行的一句是：“彪悍的人生不需要解释”。时不时我们寝室几个人吃完饭就那么 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/12/01/luopanzi.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/11/20/gene-alg.html">优化算法</a>
+      </h2>
+      <p class="article-date">November 20, 2010
+          
+              
+  <a href="/tags#Programming" >
+    <span class="tag-code">Programming</span>
+  </a>
+
+  <a href="/tags#Algorithms" >
+    <span class="tag-code">Algorithms</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+          <p></p><h2>POJ 2714</h2><br>最近又在POJ上做题，碰上<a href="http://poj.org/problem?id=2714" target="_blank" rel="noopener">2714</a>，题意是：<p></p>
+<p>输入N，和N个点(x,y)，从原点开始一共可以走N步，每一步可以随机选择移动(x,y)，或者(-x,-y)。N的范围为1-100。<br>输出最远能走到离开原点多远的地方，输出其距离。</p>
+<p>分析一下，用迭代肯定可以，不过2^N的复杂度肯定太高了。每步有两种选择，其本质是求一个长度为N的0、1序列使得最后的值最大，为一个优化问 题。这里贪心不能求到最优解，稍微证明一下就能得出。如果不贪心，或者把贪心的范围扩大一点，求出每一步完后的凸包呢，然后再在这步的基础上继续扩展下一 些节点，再求凸包，继续如此，最后求得凸包中距离最远的。求凸包的复杂度位O(nlgn)，即最后的复杂度为O(N^2lgN)，是可以接受的。</p>
+<p></p><h2>随机搜索</h2><br>以前看过《集体智慧编程》这本书，这里有一章是说的优化。稍微回顾一下其中的几个算法。对于优化问题，首先得找到一个评价函数，对于其某个方案评价函数能给出某个值评估方案的优劣。至于返回值越大还是越好没有规定，对于特定的问题选择特定的评价函数。 随机搜索不是一种好的优化算法，但是却是后面的算法的根源。其基本思想是，我们随机长生一些解，看是否好，如果比当前更好，替换当前最优解，直到收敛了，或者猜测了足够的次数了。<p></p>
+<p><pre class="src"><span style="color: #00ffff;">do</span>{<br>   solution=rand_solution;<br>   value=eval(solution);<br>   <span style="color: #00ffff;">if</span>(value&gt;best)<br>       best=value;<br>   times++;<br>   <span style="color: #ff7f24;">//</span><span style="color: #ff7f24;">测试是否收敛<br></span>}<span style="color: #00ffff;">while</span>(times&lt;max_iter&amp;&amp;(!limit_flag));</pre><br>这种盲目的猜测虽然有机会在某一次猜中最优解，但是效率肯定不怎么好。随机算法还是有一些问题可以适用，比如素数判定，如果能保证错误率很低很低也是可行的算法。<br>
+        
+      </div>
+      
+          <a class="more" href="/2010/11/20/gene-alg.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/11/15/emacs-muse.html">Emacs Muse的使用</a>
+      </h2>
+      <p class="article-date">November 15, 2010
+          
+              
+  <a href="/tags#Emacs" >
+    <span class="tag-code">Emacs</span>
+  </a>
+
+  <a href="/tags#Tools" >
+    <span class="tag-code">Tools</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                  Muse简介   Muse的配置   Muse中源代码高亮显示   Muse 来写主页和博客  
+Muse简介
+Muse 是由 EmacsWiki 衍生的，为emacs下的一个扩展模式，可以方便快捷的为文档生成各种格式，包括html,pdf，latex等等。Muse的编辑规则很简单， .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/11/15/emacs-muse.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/11/14/damien-rice.html">又是一些歌</a>
+      </h2>
+      <p class="article-date">November 14, 2010
+          
+              
+  <a href="/tags#Notes" >
+    <span class="tag-code">Notes</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                实验室的机子要被占，要搬出来，所以得把资料整理一下。发现一个原来研一英语课上做representation的ppt,题目是介绍一位自己喜欢的歌手。那次第一次上台做英报告，呵呵。我喜欢缓慢而伤感，有些沉重的歌。在一位同学日记上看到介绍Damien Rice的，然后喜欢上了他的歌。研一那一年 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/11/14/damien-rice.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/10/27/forc.html">给C瓜同学吧</a>
+      </h2>
+      <p class="article-date">October 27, 2010
+          
+              
+  <a href="/tags#Notes" >
+    <span class="tag-code">Notes</span>
+  </a>
+
+  <a href="/tags#工作" >
+    <span class="tag-code">工作</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                C瓜同学一直关注这个我这个小地方，下面是一些我面试中或者和同学讨论的一些不错的面试题，备份一下，也希望对你有用。
+
+1：C++的多态是如何实现的？如果你用C如何来实现面向对象的多态？2：判断一个有向图中是否有环。上篇文章里面写的那个杯子倒水问题。给一个都是正整数的数组，和一个正整数sum .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/10/27/forc.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/10/27/haveyourfun.html">有你的快乐</a>
+      </h2>
+      <p class="article-date">October 27, 2010
+          
+              
+  <a href="/tags#Notes" >
+    <span class="tag-code">Notes</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                晚上睡在公司，这边除了晚上偶尔有施工的声音，一切都还不错。洗个热水澡，随便写写早点睡。嘈杂的音响放着这么王若琳的《有你的快乐》，标题就用这个吧，哈哈。关于工作：今年好像计算机专业的同学们还是非常好找工作，首先华为华赛来得非常早，然后就是腾讯，这几个公司就签了好多。成都很多同学都不想离开四 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/10/27/haveyourfun.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/10/14/beizidaoshui.html">面试：杯子倒水</a>
+      </h2>
+      <p class="article-date">October 14, 2010
+          
+              
+  <a href="/tags#Programming" >
+    <span class="tag-code">Programming</span>
+  </a>
+
+  <a href="/tags#工作" >
+    <span class="tag-code">工作</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                前些天纳拓的面试有一道题目:
+给你一个3升的杯子和一个5升的(杯子是没有刻度的)，要你取4升水来(水可以无限取)，请问该如何操作。这个题目今年面试出现了很多次,不过这次变化了一些。如何抽象出一个模型,如果写程序如何解,如果要求得杯子倒水的过程如何做?
+当时并没有一下想出来,看起来有点像取 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/10/14/beizidaoshui.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/09/30/forjob.html">找工作小结</a>
+      </h2>
+      <p class="article-date">September 30, 2010
+          
+              
+  <a href="/tags#Notes" >
+    <span class="tag-code">Notes</span>
+  </a>
+
+  <a href="/tags#Backup" >
+    <span class="tag-code">Backup</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                又是很久没更新了，这段时间比较忙碌，各种笔试面试各种奔波，终于体会到了找工作到艰辛。而这还只是开始。国庆这些天应该要轻松一点，很多公司都是国庆后再来学校。总得来说最近这两个月还算比较充实，即将面临走出校园，还是得去考虑各种选择。另外，尝试着离开实验室后又淡定了不少，哈哈。虽然还没完全结束 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/09/30/forjob.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2010/08/21/emacs-for-fun.html">Emacs自虐</a>
+      </h2>
+      <p class="article-date">August 21, 2010
+          
+              
+  <a href="/tags#Emacs" >
+    <span class="tag-code">Emacs</span>
+  </a>
+
+  <a href="/tags#Linux" >
+    <span class="tag-code">Linux</span>
+  </a>
+
+  <a href="/tags#Backup" >
+    <span class="tag-code">Backup</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                无意中用了一下C#,发现VS下面有一个功能还是非常好的，就是每次按下回车键盘的时候，都可以把刚刚输入的那行代码自动排版一下，
+看起来要清晰一些。比如
+
+int a=0;                       ==&gt;  int a = 0;struct Node p=&amp; .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2010/08/21/emacs-for-fun.html">阅读全文</a>
+      
+    </article>
+  
+
+  
+    <div class="guide-pager">
+  
+    <a href="/page/12/"><span class="page-arrow">← </span>Prev</a>
+  
+  
+    <a href="/page/14/">Next<span class="page-arrow"> →</span></a>
+  
+</div>
+  
+</main>
+
+
+    <div class="scroll-top">
+  <span class="arrow-icon"></span>
+</div>
+    <footer class="app-footer" id="footer">
+    <p class="copyright">
+        &copy; 2021 | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
+        with <a href="https://github.com/yanm1ng/hexo-theme-vexo">Vexo</a>
+  </p>
+</footer>
+
+<script>
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+<script>
+  async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    FastClick.attach(document.body);
+  })
+</script>
+
+<script>
+  var hasLine = 'false';
+  async("//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js", function(){
+    $('figure pre').each(function(i, block) {
+      var figure = $(this).parents('figure');
+      if (hasLine === 'false') {
+        figure.find('.gutter').hide();
+      }
+      var lang = figure.attr('class').split(' ')[1] || 'code';
+      var codeHtml = $(this).html();
+      var codeTag = document.createElement('code');
+      codeTag.className = lang;
+      codeTag.innerHTML = codeHtml;
+      $(this).attr('class', '').empty().html(codeTag);
+      figure.attr('data-lang', lang.toUpperCase());
+      hljs.highlightBlock(block);
+    });
+  })
+</script>
+<!-- Baidu Tongji -->
+
+<script>
+    var _baId = 'ba1315646a61cc7bd6f574a6b5221640';
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<script src="/js/script.js"></script>
+
+  </body>
+</html>

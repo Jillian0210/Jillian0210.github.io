@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+  <head><meta name="generator" content="Hexo 3.9.0">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <meta name="description" content="All about coding and software">
+  <meta name="keyword" content="Programming, Programming Languages, Algorithms, Tools">
+  
+    <link rel="shortcut icon" href="/css/images/favicon.ico">
+  
+  <title>
+      
+          Yukang&#39;s Page
+      
+  </title>
+  <link href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link href="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/gitment.css">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/fonts.css">
+  <link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/plugins/code.css">
+  <script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//cdn.bootcss.com/geopattern/1.2.3/js/geopattern.min.js"></script>
+  <script src="//cdn.bootcss.com/nprogress/0.2.0/nprogress.min.js"></script>
+  <script src="/js/qrious.js"></script>
+<script src="/js/gitment.js"></script>
+
+  <div style="margin:0 auto;width:0px;height:0px;overflow:hidden;">
+      <img src="/css/images/logo.png" width="400px" height="400px">
+  </div>
+
+  
+  
+    <!-- MathJax support START -->
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+          processEscapes: true,
+          skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      });
+    </script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+      });
+    </script>
+    <script type="text/javascript" src="//cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <!-- MathJax support END -->
+  
+
+
+
+</head>
+
+  <body>
+    <header class="header fixed-header">
+  <div class="header-container">
+    <a class="home-link" href="/">
+      <div class="logo"></div>
+      <span>Yukang's Page</span>
+    </a>
+    <ul class="right-list">
+      
+        <li class="list-item">
+          
+            <a href="/" class="item-link active">Home</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/tags/" class="item-link">Tags</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/archives/" class="item-link">Archives</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/project/" class="item-link">Projects</a>
+          
+        </li>
+      
+        <li class="list-item">
+          
+            <a href="/about/" class="item-link">About</a>
+          
+        </li>
+      
+    </ul>
+    <div class="menu">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </div>
+    <div class="menu-mask">
+      <ul class="menu-list">
+        
+          <li class="menu-item">
+            
+              <a href="/" class="menu-link mobile-active">Home</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/tags/" class="menu-link">Tags</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/archives/" class="menu-link">Archives</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/project/" class="menu-link">Projects</a>
+            
+          </li>
+        
+          <li class="menu-item">
+            
+              <a href="/about/" class="menu-link">About</a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</header>
+
+    <main class="app-body">
+    
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/07/16/kong-intro-3.html">Kong源码分析: 插件</a>
+      </h2>
+      <p class="article-date">July 16, 2017
+          
+              
+  <a href="/tags#Lua" >
+    <span class="tag-code">Lua</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                插件的强大之处在我自己使用 Kong 的过程中，最方便的还是在于 Kong 的强大的插件机制。 Nginx 本身提供了提供模块开发机制，但是相对来说更底层一些，并且需要使用 C/C++ 来开发，对于很多开发人员来说 Nginx 仍为一个黑盒。OpenResty 集成了很多好用插件，并提供 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/07/16/kong-intro-3.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/07/07/kong-intro-2.html">Kong源码分析: 启动</a>
+      </h2>
+      <p class="article-date">July 7, 2017
+          
+              
+  <a href="/tags#Lua" >
+    <span class="tag-code">Lua</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                Kong的初始化过程安装好Kong之后我们是用命令sudo ./bin/kong start -c kong.conf -vv来启动。其中kong.conf为配置文件，-vv选项打印出一些重要信息展示出来，方便发现问题。
+可以看到./bin/kong是一个脚本，是用的#!/usr/loc .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/07/07/kong-intro-2.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/07/02/kong-intro.html">Kong源码分析</a>
+      </h2>
+      <p class="article-date">July 2, 2017
+          
+              
+  <a href="/tags#Lua" >
+    <span class="tag-code">Lua</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                缘由最近在工作上接触了Kong这个开源项目，因为我们内部做微服务化重构，所以导致系统相互间通信比较复杂，如果想做一些涉及各个系统的功能就很困难。比如我们前段时间实现的灰度系统就把人折腾得很惨。因为我们的设计中有一些http header 需要在各个系统之间传递。每个项目的 Nginx 里 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/07/02/kong-intro.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/06/27/recent-reading-list.html">小说推荐</a>
+      </h2>
+      <p class="article-date">June 27, 2017
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                 之前我用过一段时间 Kindle，因为没有使用保护套导致在书包里面被压坏。而后一两年用 IPad 看了一些电子书，始终觉得稍微有些笨重，而且看久了眼睛不舒服。前段时间在 z.cn 上瞎逛又有了买个 Kindle 的欲望，拿到手后又好好找了一些电子书比较多的网站。目前使用最舒服的还是 h .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/06/27/recent-reading-list.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/05/22/try-on-openresty.html">OpenResty使用总结</a>
+      </h2>
+      <p class="article-date">May 22, 2017
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                OpenResty最近用OpenResty比较多，除了一些业务逻辑的实现也做了AB组灰度相关的实现。OpenResty是在Nginx基础上做的扩展，应该算是国人开源项目中很成功的一个。在做的过程中写了不少Lua代码，写Lua代码的体验就是库好少，语言好简单。
+OpenResty lua编 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/05/22/try-on-openresty.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/04/09/rubytt-cont.html">rubytt 续</a>
+      </h2>
+      <p class="article-date">April 9, 2017
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                前段时间继续做了 rubytt 这个小项目，遇到一些问题。
+我想做一个自动检测未定义变量的功能，发现如果只是做静态分析，是很难做出来的。还有涉及到各种 gem 包的分析，这些工作量较大。可以看出在这个PR里我甚至用上了一些硬编码。
+然后我想做一个自动分析代码复杂度的功能，比如某些函数太长 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/04/09/rubytt-cont.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2017/01/24/disease-of-programmer.html">程序员病</a>
+      </h2>
+      <p class="article-date">January 24, 2017
+          
+              
+  <a href="/tags#Books" >
+    <span class="tag-code">Books</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                最近看费曼的书《发现的乐趣》，里面有一段描述非常好玩:
+
+好，弗兰克先生开始实施他的计划了，与此同时，他也得了一种病——『计算机病』。现在每个使用计算机的人都知道这个毛病，那种病非常厉害，会干扰整个工作。这是我们面临的一个严重问题。所谓『计算机病』就是你一『玩』上计算机，就会上瘾。计算机 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2017/01/24/disease-of-programmer.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2016/12/27/rubytt.html">Ruby 程序的静态分析: rubytt</a>
+      </h2>
+      <p class="article-date">December 27, 2016
+          
+              
+  <a href="/tags#Programming" >
+    <span class="tag-code">Programming</span>
+  </a>
+
+  <a href="/tags#Ruby" >
+    <span class="tag-code">Ruby</span>
+  </a>
+
+  <a href="/tags#OCaml" >
+    <span class="tag-code">OCaml</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                rubytt是一个 Ruby 程序的静态分析器，这个项目从16年年初一直到年底，断断续续持续了近一年。这里稍微总结一下自己的开发过程。
+0. 缘由14年开始，从我进入 DJI 之后开始接触 Rails 开发。Ruby 之前也接触过，不过都是写一些小脚本之类的东西。我们几乎用 Rails  .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2016/12/27/rubytt.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2016/12/11/qianlong-history.html">读《饥饿的盛世》</a>
+      </h2>
+      <p class="article-date">December 11, 2016
+          
+              
+  <a href="/tags#Books" >
+    <span class="tag-code">Books</span>
+  </a>
+
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                最近又读了本张宏杰的书《饥饿的盛势》。张宏杰的书今年看了好几本，讲述历史都挺生动，特别是对人物内心的剖析很到位。很多时候作者是站在历史人物的角度去分析，书里所展现的历史人物特别鲜活。很多历史人物都被脸谱化或者自带几个标签，这人不是好的则是坏的。可是人都是复杂的、多面的，真实的历史事件又会 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2016/12/11/qianlong-history.html">阅读全文</a>
+      
+    </article>
+  
+    <article class="article-card">
+      <h2 class="article-head" font-color="red">
+        <a href="/2016/11/30/nginx-traffic-limit.html">Nginx限流</a>
+      </h2>
+      <p class="article-date">November 30, 2016
+          
+      </p>
+      <div class="article-summary">
+        
+        
+            
+                Nginx 限流可以通过几种方式实现：
+1. Nginx自带的流量控制模块ngx_http_limit_req 根据特定的key(通常为IP) 控制访问频率
+ngx_http_limit_req_module 控制连接数
+通过修改Nginx的配置文件，然后reload。这种方式配置比较简 .....
+            
+        
+      </div>
+      
+          <a class="more" href="/2016/11/30/nginx-traffic-limit.html">阅读全文</a>
+      
+    </article>
+  
+
+  
+    <div class="guide-pager">
+  
+    <a href="/page/3/"><span class="page-arrow">← </span>Prev</a>
+  
+  
+    <a href="/page/5/">Next<span class="page-arrow"> →</span></a>
+  
+</div>
+  
+</main>
+
+
+    <div class="scroll-top">
+  <span class="arrow-icon"></span>
+</div>
+    <footer class="app-footer" id="footer">
+    <p class="copyright">
+        &copy; 2021 | Proudly powered by <a href="https://hexo.io" target="_blank">Hexo</a>
+        with <a href="https://github.com/yanm1ng/hexo-theme-vexo">Vexo</a>
+  </p>
+</footer>
+
+<script>
+  function async(u, c) {
+    var d = document, t = 'script',
+      o = d.createElement(t),
+      s = d.getElementsByTagName(t)[0];
+    o.src = u;
+    if (c) { o.addEventListener('load', function (e) { c(null, e); }, false); }
+    s.parentNode.insertBefore(o, s);
+  }
+</script>
+<script>
+  async("//cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js", function(){
+    FastClick.attach(document.body);
+  })
+</script>
+
+<script>
+  var hasLine = 'false';
+  async("//cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js", function(){
+    $('figure pre').each(function(i, block) {
+      var figure = $(this).parents('figure');
+      if (hasLine === 'false') {
+        figure.find('.gutter').hide();
+      }
+      var lang = figure.attr('class').split(' ')[1] || 'code';
+      var codeHtml = $(this).html();
+      var codeTag = document.createElement('code');
+      codeTag.className = lang;
+      codeTag.innerHTML = codeHtml;
+      $(this).attr('class', '').empty().html(codeTag);
+      figure.attr('data-lang', lang.toUpperCase());
+      hljs.highlightBlock(block);
+    });
+  })
+</script>
+<!-- Baidu Tongji -->
+
+<script>
+    var _baId = 'ba1315646a61cc7bd6f574a6b5221640';
+    // Originial
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "//hm.baidu.com/hm.js?" + _baId;
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+<script src="/js/script.js"></script>
+
+  </body>
+</html>
